@@ -1,4 +1,4 @@
 FROM nginx:alpine
-EXPOSE "8081:80"
+EXPOSE 80
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
